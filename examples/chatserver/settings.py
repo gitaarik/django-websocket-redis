@@ -39,9 +39,9 @@ STATIC_ROOT = os.environ.get('DJANGO_STATIC_ROOT', '')
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/static/'
 
-SESSION_ENGINE = 'redis_sessions.session'
+# SESSION_ENGINE = 'redis_sessions.session'
 
-SESSION_REDIS_PREFIX = 'session'
+# SESSION_REDIS_PREFIX = 'session'
 
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.auth.context_processors.auth',
